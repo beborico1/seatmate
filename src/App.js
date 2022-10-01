@@ -6,7 +6,7 @@ import Search from './pages/Search';
 function App() {
   return (
     <div className="App">
-      <div className='p-5 bg-gray-100'>
+      <div className='p-5'>
         <Routes>
           <Route strict exact path="/" element={<Search/>}/>
           <Route strict exact path="/:id" element={<Event/>}/>
